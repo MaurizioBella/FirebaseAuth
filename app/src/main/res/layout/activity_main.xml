@@ -39,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegister"
-        app:layout_constraintVertical_bias="0.145" />
+        app:layout_constraintVertical_bias="0.048" />
 
     <Button
         android:id="@+id/btnLogout"
@@ -48,10 +48,10 @@
         android:text="@string/btnLogout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <TextView
         android:id="@+id/textViewUser"
@@ -64,5 +64,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewHome"
         app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/btnFirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_firestore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout"
+        app:layout_constraintVertical_bias="0.123" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

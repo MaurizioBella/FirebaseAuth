@@ -10,4 +10,6 @@
     <string name="btnRegister">Register</string>
     <string name="btnLogin">Login</string>
     <string name="btnLogout">Logout</string>
+    <string name="btn_firestore">Firestore</string>
+    <string name="title_activity_firestore">Firestore</string>
 </resources>

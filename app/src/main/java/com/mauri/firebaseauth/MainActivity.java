@@ -13,10 +13,15 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+
+/**
+ * NAMING CONVENTION https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
+ */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "!!! MainActivity";
     private FirebaseAuth mAuth;
     TextView mUser;
+    Button mFirestone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             mUser.setText("No User Logged In!");
+            mFirestone.setEnabled(false);
         }
 
         Button btnRegister = (Button) findViewById(R.id.btnRegister);
@@ -72,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
                     Log.e(TAG, "onClick: ", e );
                 }
 
+            }
+        });
+
+        mFirestone = findViewById(R.id.btnFirestore);
+        mFirestone.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "onClick: ");
+                startActivity(new Intent(MainActivity.this, Firestore.class));
             }
         });
     }

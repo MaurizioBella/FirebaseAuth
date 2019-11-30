@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="textViewHome">Firebase Auth App</string>
+    <string name="textUser">empty</string>
+    <string name="textViewAuthMsg">Authentication</string>
+    <string name="textViewFullName">Full Name</string>
+    <string name="textViewEmail">Email</string>
+    <string name="textViewPassword">Password</string>
+    <string name="textViewLogin">Already Registerd? Login Here</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnLogout">Logout</string>
+</resources>

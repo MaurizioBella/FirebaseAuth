@@ -1,1 +1,1 @@
-FirebaseAuth
+Android Studio with Firebase authentication username and password
